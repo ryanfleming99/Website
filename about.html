@@ -1,10 +1,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script id="address-template" type="text/x-handlebars-template"></script>
-
     <title>Ryan Fleming</title>
 
     <style type="text/css">
@@ -45,14 +44,15 @@
         .red-button {
             width: 20px;
             height: 20px;
-            background:#fb625c;
+            background: #fb625c;
             border-radius: 50%;
             border: none;
-        }  
+        }
+
         .yellow-button {
             width: 20px;
             height: 20px;
-            background:#fdbe41;
+            background: #fdbe41;
             border-radius: 50%;
             border: none;
 
@@ -61,7 +61,7 @@
         .green-button {
             width: 20px;
             height: 20px;
-            background:#34c74a;
+            background: #34c74a;
             border-radius: 50%;
             border: none;
 
@@ -83,58 +83,13 @@
 
         .top-side-bar {
             width: 100%;
-            height: 25%;
+            height: 15%;
             background-color: #3c3f41;
-        }
-
-        /* Dropdown Button */
-
-         .dropdown {
-            position: relative;
-            display: inline-block;
-             width: 100%;
-        }
-        
-        .dropbtn {
-            background-color: #000000;
-           background-color: transparent;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        .dropbtn:hover {
-            border: 1px #445522 ;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            min-width: 100%;
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            color: white;
-            padding: 10px 10px;
-            text-decoration: none;
-            display: block;
-            font-size:12px;
-            font-family:'SourceCodePro-Medium', 'MS Gothic';
-        }
-
-        .dropdown-content {
-            background-color: transparent;
-        }
-
-        .show {
-            display: block;
-            background-color: transparent;
         }
 
         .bottom-side-bar {
             width: 100%;
-            height: 80%;
+            height: 100%;
             background-color: #47484a;
         }
 
@@ -145,6 +100,103 @@
             float: right;
         }
 
+        .nav-text {
+
+            color: aquamarine;
+            font-size: 14px;
+        }
+
+        .nav-icon {
+            font-size: 20px;
+            padding: 0px 30px 0px 10px;
+
+        }
+
+        .dropbtn {
+            background-color: #47484b;
+            color: white;
+            display:block;
+            padding: 10px 10px;
+            font-size: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+
+        .dropdown {
+            position: absolute;
+            display: block;
+            width:20%;
+            
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: transparent;
+            min-width: 100%;
+        }
+
+        /* Links inside the dropdown */
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            font-size: 12px;
+            font-family: 'times new roman';
+        }
+
+        /* Change color of dropdown links on hover */
+
+        .dropdown-content a:hover {
+            background-color: #494a4d;
+        }
+
+        /* Show the dropdown menu on hover */
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+
+        .dropdown:hover .dropbtn {
+            background-color: #494a4d;
+        }
+
+
+        .bottom-bar {
+            width: 100%;
+            height: 60px;
+            padding: 15px 10px;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        .icon-footer {
+            display: block;
+            width: 35px;
+            height: auto;
+            overflow: hidden;
+            margin-left: 20px;
+            float: left;
+        }
+
+        .social-media {
+            width: 100%;
+            z-index: 0;
+            position: absolute;
+
+        }
+
     </style>
 
 </head>
@@ -153,9 +205,9 @@
     <div class="wrapper">
         <div class="top-bar">
             <div class="top-bar-buttons">
-                <button class="red-button"></button>
-                <button class="yellow-button"></button>
-                <button class="green-button"></button>
+                <input type="button" class="red-button" onclick="window.location.href=''" />
+                <input type="button" class="yellow-button" onclick="window.location.href=''" />
+                <input type="button" class="green-button" onclick="window.location.href=''" />
             </div>
         </div>
         <div class="main">
@@ -163,7 +215,7 @@
                 <div class="top-side-bar"></div>
 
                 <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">&#9660;</button>
+                    <button onclick="myFunction()" class="dropbtn"></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="about.html" class="link1">  about.html</a>
                         <a href="contact.html" class="link2"> contact.html</a>
@@ -171,30 +223,24 @@
                     </div>
 
                 </div>
-                <div class="bottom-side-bar"></div>
+                <div class="bottom-side-bar">
+                </div>
             </div>
-
             <div class="content">
-                {{>hello}}
+                <div class="box"></div>
+                
+                <div class="bottom-bar">
+                    
+                    <div class="social-media">
+                        <a class="icon-footer" href="http://www.github.com/ryanfleming99"> <img src="github1.png" target="_blank" width="35" height="35"> </a>
+                        <a class="icon-footer" href="http://www.github.com/ryanfleming99"> <img src="mail.png" target="_blank" width="35" height="35"> </a>
+                        <a class="icon-footer" href="http://www.github.com/ryanfleming99"> <img src="linked.png" target="_blank" width="35" height="35"> </a>
+                        <a class="icon-footer" href="http://www.twitter.com/@ryanfleming"> <img src="twitter.png" target="_blank"  width="35" height="35"> </a>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>
-    <script>
-    
-    function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}</script>
+    </div>
 </body>
