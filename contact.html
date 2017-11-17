@@ -1,0 +1,198 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Fleming</title>
+
+    <style type="text/css">
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+
+        }
+
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .top-bar {
+            width: 100%;
+            height: 50px;
+            background-color: #3c3f41;
+        }
+
+        .top-bar-buttons {
+            width: 17%;
+            height: 100%;
+            padding: 20px 10px 10px 30px;
+        }
+
+        .red-button {
+            width: 20px;
+            height: 20px;
+            background:#fb625c;
+            border-radius: 50%;
+            border: none;
+        }  
+        .yellow-button {
+            width: 20px;
+            height: 20px;
+            background:#fdbe41;
+            border-radius: 50%;
+            border: none;
+
+        }
+
+        .green-button {
+            width: 20px;
+            height: 20px;
+            background:#34c74a;
+            border-radius: 50%;
+            border: none;
+
+
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+            background-color: #2d2d2d;
+        }
+
+        .side-bar {
+            width: 20%;
+            height: 100%;
+            background-color: #3c3f41;
+            float: left;
+        }
+
+        .top-side-bar {
+            width: 100%;
+            height: 25%;
+            background-color: #3c3f41;
+        }
+
+        /* Dropdown Button */
+
+         .dropdown {
+            position: relative;
+            display: inline-block;
+             width: 100%;
+        }
+        
+        .dropbtn {
+            background-color: #000000;
+           background-color: transparent;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .dropbtn:hover {
+            border: 1px #445522 ;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 100%;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 10px;
+            text-decoration: none;
+            display: block;
+            font-size:12px;
+            font-family:'SourceCodePro-Medium', 'MS Gothic';
+        }
+
+        .dropdown-content {
+            background-color: transparent;
+        }
+
+        .show {
+            display: block;
+            background-color: transparent;
+        }
+
+        .bottom-side-bar {
+            width: 100%;
+            height: 80%;
+            background-color: #47484a;
+        }
+
+        .content {
+            width: 80%;
+            height: 100%;
+            font-size: 100px;
+            float: right;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <div class="top-bar-buttons">
+                <button class="red-button"></button>
+                <button class="yellow-button"></button>
+                <button class="green-button"></button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="side-bar">
+                <div class="top-side-bar"></div>
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">&#9660;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="about.html" class="link1">  about.html</a>
+                        <a href="http://localhost:1337/2017/11/08/about/" class="link2"> contact.html</a>
+                        <a href="http://localhost:1337/2017/11/08/contact/" class="link3"> index.html</a>
+                    </div>
+
+                </div>
+                <div class="bottom-side-bar"></div>
+            </div>
+
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    <script>
+    
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+</body>
