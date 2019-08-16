@@ -7,9 +7,7 @@
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-    'nav main projects'
-    'nav main projects';
+    grid-template-areas:'nav main projects';
     grid-gap:5px;
     background-color:#121212;
 }
@@ -62,6 +60,8 @@ h2 {
     line-height: auto;
     color:#b3b3b3;
     padding-right:20px;
+    display:none;
+
 }
 
 .header-description {
