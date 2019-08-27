@@ -10,14 +10,8 @@ To display my technical ability for future employers & clients.
    Built (under CSS migration)
  
 ## Screenshots
-Include logo/demo screenshot etc.
-
-## Tech/framework used
-Ex. -
-
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
-
+   Coming 
+   
 ## Features
 Css Animation under development
 
