@@ -1,16 +1,16 @@
 * {
-    margin:0px;
-    padding:0px;
-    background-color:#232946;
+    margin: 0px;
+    padding: 0px;
+    background-color: #232946;
 
- }
+}
 
 .container {
-display:flex;
-justify-content: center;
-width:100vw;
-height:100vh;
-margin-top:100px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
     /* display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -19,20 +19,35 @@ margin-top:100px;
 }
 
 #title {
-    font-size:80px;
+    font-size: 80px;
     text-align: center;
-    color:#fffffe;
+    color: #fffffe;
     font-family: 'Karla', sans-serif;
 }
 
 .intro {
-    font-size:20px;
-    color:#b8c1ec;
+    font-size: 20px;
+    color: #b8c1ec;
     font-family: 'Karla', sans-serif;
     text-align: center;
     line-height: 2em;
 }
+
 #github {
-    height:10vh;
-    padding-top:30px;
+    height: 10vh;
+    padding-top: 30px;
+}
+
+.task-container {
+    display: grid;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.tasklist {
+    color: white;
+    display: grid;
+    justify-content: left;
+    padding: 20px
 }
