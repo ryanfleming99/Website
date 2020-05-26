@@ -1,16 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #232946;
+    background-color: #151427;
+    font-family: 'Lato', sans-serif;
+
 
 }
 
 .container {
-    display: flex;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
-    margin-top: 100px;
+    justify-content: center;
     /* display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -18,36 +18,146 @@
     grid-gap:5px; */
 }
 
-#title {
-    font-size: 80px;
+.navigation {
+    width: 100%;
     text-align: center;
-    color: #fffffe;
-    font-family: 'Karla', sans-serif;
-}
-
-.intro {
-    font-size: 20px;
-    color: #b8c1ec;
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    line-height: 2em;
-}
-
-#github {
-    height: 10vh;
-    padding-top: 30px;
-}
-
-.task-container {
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-items: left;
-    text-align: left;
 }
 
-.tasklist {
-    color: white;
-    display: grid;
-    justify-content: left;
-    padding: 20px
+
+.gallery-images {
+    padding: 20px 50px;
+    text-align: center;
+}
+
+
+.gallery {
+    justify-content: center;
+    padding: 10% 5%;
+}
+
+.cv {
+    justify-content: center;
+    padding: 10% 10%;
+}
+
+.center-align {
+    justify-content: center;
+    padding: 10% 20%;
+}
+
+.project-container {
+    justify-content: center;
+    padding: 10% 20%;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+#project-image {
+    padding: 10px 20px;
+}
+
+.header {
+    padding: 20px 0px;
+}
+
+.gold-header {
+    color: #DEC79B;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cv-gold-header {
+    color: #DEC79B;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+#heading {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.contact {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.cv-section {
+    position: relative;
+    padding: 30px 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 8%;
+}
+
+.white-para {
+    color: #ffffff;
+    font-size: 12px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.white-para-left {
+    color: #ffffff;
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 94px;
+    line-height: 35px;
+}
+
+.nav-header {
+    color: #DEC79B;
+    font-size: 20px;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+}
+
+.sub-header {
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.job-description {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.email {
+    padding: 20px 0px;
+    letter-spacing: 6px;
+
+}
+
+.icons {
+    color: #DEC79B;
+    font-size: 60px;
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+}
+
+.fa-behance-square:before {
+    padding: 0px 50px;
 }
