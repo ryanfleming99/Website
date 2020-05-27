@@ -8,8 +8,8 @@
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
     justify-content: center;
     /* display:grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -18,11 +18,10 @@
     grid-gap:5px; */
 }
 
-.navigation {
-    width: 100%;
-    text-align: center;
+#navigation {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 
@@ -34,7 +33,7 @@
 
 .gallery {
     justify-content: center;
-    padding: 10% 5%;
+    padding: 70px 20px 30px 20px;
 }
 
 .cv {
@@ -44,7 +43,7 @@
 
 .center-align {
     justify-content: center;
-    padding: 10% 20%;
+    margin: 200px;
 }
 
 .project-container {
@@ -60,8 +59,16 @@
     list-style-type: none;
 }
 
+.underline {
+    border-bottom: 1px solid white;
+    width: 100px;
+    text-align: center;
+}
+
 #project-image {
-    padding: 10px 20px;
+    padding: 10px 50px;
+    width: 250px;
+    height: 150px;
 }
 
 .header {
@@ -70,9 +77,10 @@
 
 .gold-header {
     color: #DEC79B;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center;*/
     text-align: center;
+    font-size: 60px;
 }
 
 .cv-gold-header {
@@ -87,8 +95,8 @@
     color: #fff;
     justify-content: center;
     text-align: center;
-    padding: 30px;
-
+    padding: 60px 20px 30px 20px;
+    font-size: 25px;
 }
 
 .contact {
@@ -105,14 +113,17 @@
 
 .logo {
     position: absolute;
-    width: 8%;
+    margin: -5px 10px;
+    width: 75px;
 }
 
 .white-para {
     color: #ffffff;
-    font-size: 12px;
-    word-wrap: break-word;
+    font-size: 16px;
+    /* word-wrap: break-word; */
     text-align: center;
+    line-height: 35px;
+    padding: 20px 60px;
 }
 
 .white-para-left {
@@ -140,6 +151,15 @@
     opacity: 0.5;
 }
 
+.title-sub-header {
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
 .job-description {
     font-size: 10px;
     line-height: 20px;
@@ -151,13 +171,96 @@
 
 }
 
-.icons {
-    color: #DEC79B;
-    font-size: 60px;
+.icon-position {
+    color: #DEC79B font-size: 60px;
     padding: 60px 20px 50px 20px;
     text-align: center;
 }
 
 .fa-behance-square:before {
     padding: 0px 50px;
+}
+
+#icon {
+    color: #DEC79B;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 750px) {
+    .logo {
+        display: none;
+    }
+
+    .cv-gold-header {
+        color: #DEC79B;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    #navigation {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .gold-header {
+        color: #DEC79B;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    #heading {
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        margin: 50px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .gallery-images {
+        padding: 20px 0px;
+    }
+
+    #project-image {
+        padding: 15px;
+        width: 135px;
+    }
+
+    .center-align {
+        justify-content: center;
+        padding: 50px 20px;
+        margin: 20px 0px 0px 0px !important;
+    }
+
+    .white-para {
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        padding: 1px;
+    }
+
+    .white-para-left {
+        color: #ffffff;
+        font-size: 15px;
+        word-wrap: break-word;
+        text-align: left;
+        padding-left: 5px;
+        line-height: 35px;
+    }
+
+    .email {
+        padding: 20px 30px;
+        letter-spacing: 6px;
+    }
+
+    .gallery {
+        justify-content: center;
+        padding: 15px 15px;
+    }
+
 }
