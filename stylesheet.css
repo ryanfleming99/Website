@@ -26,15 +26,12 @@
 
 
 .gallery-images {
-    padding: 20px 50px;
-    text-align: center;
-}
-
-
-.gallery {
+    display: flex;
     justify-content: center;
-    padding: 70px 20px 30px 20px;
 }
+
+
+.gallery {}
 
 .cv {
     justify-content: center;
@@ -66,9 +63,17 @@
 }
 
 #project-image {
-    padding: 10px 50px;
-    width: 250px;
-    height: 150px;
+    background-image:
+}
+
+
+.image-card {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin: 1px;
+    box-shadow: inset 0 0 10px #fff;
+    overflow: hidden;
 }
 
 .header {
@@ -187,6 +192,14 @@
 }
 
 @media only screen and (max-width: 750px) {
+
+    .image-card {
+        width: 100%;
+        height: 300px;
+        margin: 50px 0px 10px 5px;
+        background-color: white;
+    }
+
     .logo {
         display: none;
     }
@@ -214,21 +227,22 @@
         margin-top: 80px;
     }
 
-    #heading {
+    #heading #heading {
         color: #fff;
         justify-content: center;
         text-align: center;
-        margin: 50px 0px 0px 0px;
         font-size: 20px;
     }
 
     .gallery-images {
         padding: 20px 0px;
+        display: block;
     }
 
     #project-image {
-        padding: 15px;
-        width: 135px;
+        /* padding: 15px;
+        width: 135px; */
+        display: none;
     }
 
     .center-align {
