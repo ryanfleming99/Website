@@ -31,8 +31,6 @@
 }
 
 
-.gallery {}
-
 .cv {
     justify-content: center;
     padding: 10% 10%;
@@ -62,19 +60,15 @@
     text-align: center;
 }
 
-#project-image {
-    background-image:
-}
 
-
-.image-card {
+/* .image-card {
     width: 100%;
     height: 500px;
     background-color: white;
     margin: 1px;
     box-shadow: inset 0 0 10px #fff;
     overflow: hidden;
-}
+} */
 
 .header {
     padding: 20px 0px;
