@@ -1,17 +1,15 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    background-color: #151427;
-    font-family: 'Lato', sans-serif;
-
-
+	margin: 0px;
+	padding: 0px;
+	background-color: #151427;
+	font-family: 'Lato', sans-serif;
 }
 
 .container {
-    width: 98vw;
-    height: 98vh;
-    justify-content: center;
-    /* display:grid;
+	width: 98vw;
+	height: 98vh;
+	justify-content: center;
+	/* display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:'nav main projects';
@@ -19,47 +17,44 @@
 }
 
 #navigation {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
-
 
 .gallery-images {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
-
 .cv {
-    justify-content: center;
-    padding: 10% 10%;
+	justify-content: center;
+	padding: 10% 10%;
 }
 
 .center-align {
-    justify-content: center;
-    margin: 200px;
+	justify-content: center;
+	margin: 200px;
 }
 
 .project-container {
-    justify-content: center;
-    padding: 10% 20%;
+	justify-content: center;
+	padding: 10% 20%;
 }
 
 .nav-item {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    padding: 20px;
-    list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px;
+	list-style-type: none;
 }
 
 .underline {
-    border-bottom: 1px solid white;
-    width: 100px;
-    text-align: center;
+	border-bottom: 1px solid white;
+	width: 100px;
+	text-align: center;
 }
-
 
 /* .image-card {
     width: 100%;
@@ -71,204 +66,216 @@
 } */
 
 .header {
-    padding: 20px 0px;
+	padding: 20px 0px;
 }
 
 .gold-header {
-    color: #DEC79B;
-    /* display: flex;
+	color: #dec79b;
+	/* display: flex;
     justify-content: center;*/
-    text-align: center;
-    font-size: 60px;
+	text-align: center;
+	font-size: 60px;
 }
 
 .cv-gold-header {
-    color: #DEC79B;
-    text-align: left;
-    padding-left: 100px;
-    font-size: 22px;
-    padding-bottom: 15px;
+	color: #dec79b;
+	text-align: left;
+	padding-left: 100px;
+	font-size: 22px;
+	padding-bottom: 15px;
 }
 
 #heading {
-    color: #fff;
-    justify-content: center;
-    text-align: center;
-    padding: 60px 20px 30px 20px;
-    font-size: 25px;
+	color: #fff;
+	justify-content: center;
+	text-align: center;
+	padding: 60px 20px 30px 20px;
+	font-size: 25px;
 }
 
 .contact {
-    color: #fff;
-    justify-content: center;
-    text-align: center;
-    padding: 25px 0px;
+	color: #fff;
+	justify-content: center;
+	text-align: center;
+	padding: 25px 0px;
 }
 
 .cv-section {
-    position: relative;
-    padding: 30px 0px;
+	position: relative;
+	padding: 30px 0px;
 }
 
 .logo {
-    position: absolute;
-    margin: -5px 10px;
-    width: 75px;
+	position: absolute;
+	margin: -5px 10px;
+	width: 75px;
 }
 
 .white-para {
-    color: #ffffff;
-    font-size: 16px;
-    /* word-wrap: break-word; */
-    text-align: center;
-    line-height: 35px;
-    padding: 20px 60px;
+	color: #ffffff;
+	font-size: 16px;
+	/* word-wrap: break-word; */
+	text-align: center;
+	line-height: 35px;
+	padding: 20px 60px;
 }
 
 .white-para-left {
-    color: #ffffff;
-    font-size: 15px;
-    word-wrap: break-word;
-    text-align: left;
-    padding-left: 94px;
-    line-height: 35px;
+	color: #ffffff;
+	font-size: 15px;
+	word-wrap: break-word;
+	text-align: left;
+	padding-left: 94px;
+	line-height: 35px;
 }
 
 .nav-header {
-    color: #DEC79B;
-    font-size: 20px;
+	color: #dec79b;
+	font-size: 20px;
 }
 
-.project-image {
-    width: 200px;
-    height: 200px;
+#project-image {
+	width: 200px;
+	height: 200px;
+}
+
+.projects {
+	display: flex;
+	padding: 10%;
+}
+
+.placeholder {
+}
+
+.project-text {
+	padding: 0px 50px;
+	color: white;
+	width: 400px;
 }
 
 .sub-header {
-    font-size: 15px;
-    color: #fff;
-    opacity: 0.5;
+	font-size: 15px;
+	color: #fff;
+	opacity: 0.5;
 }
 
 .title-sub-header {
-    font-size: 15px;
-    color: #fff;
-    opacity: 0.5;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+	font-size: 15px;
+	color: #fff;
+	opacity: 0.5;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
 }
 
 .job-description {
-    font-size: 10px;
-    line-height: 20px;
+	font-size: 10px;
+	line-height: 20px;
 }
 
 .email {
-    padding: 20px 0px;
-    letter-spacing: 6px;
-
+	padding: 20px 0px;
+	letter-spacing: 6px;
 }
 
 .icon-position {
-    color: #DEC79B font-size: 60px;
-    padding: 60px 20px 50px 20px;
-    text-align: center;
+	color: #dec79b;
+	font-size: 60px;
+	padding: 60px 20px 50px 20px;
+	text-align: center;
 }
 
 .fa-behance-square:before {
-    padding: 0px 50px;
+	padding: 0px 50px;
 }
 
 #icon {
-    color: #DEC79B;
-    font-size: 70px;
+	color: #dec79b;
+	font-size: 70px;
 }
 
 @media only screen and (max-width: 750px) {
+	.image-card {
+		width: 100%;
+		height: 300px;
+		margin: 50px 0px 10px 5px;
+		background-color: white;
+	}
 
-    .image-card {
-        width: 100%;
-        height: 300px;
-        margin: 50px 0px 10px 5px;
-        background-color: white;
-    }
+	.logo {
+		display: none;
+	}
 
-    .logo {
-        display: none;
-    }
+	.cv-gold-header {
+		color: #dec79b;
+		text-align: left;
+		padding-left: 10px;
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
 
-    .cv-gold-header {
-        color: #DEC79B;
-        text-align: left;
-        padding-left: 10px;
-        font-size: 22px;
-        padding-bottom: 15px;
-    }
+	#navigation {
+		display: flex;
+		justify-content: center;
+		padding-top: 30px;
+	}
 
-    #navigation {
-        display: flex;
-        justify-content: center;
-        padding-top: 30px;
-    }
+	.gold-header {
+		color: #dec79b;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size: 40px;
+		margin-top: 80px;
+	}
 
-    .gold-header {
-        color: #DEC79B;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 40px;
-        margin-top: 80px;
-    }
+	#heading #heading {
+		color: #fff;
+		justify-content: center;
+		text-align: center;
+		font-size: 20px;
+	}
 
-    #heading #heading {
-        color: #fff;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-    }
+	.gallery-images {
+		padding: 20px 0px;
+		display: block;
+	}
 
-    .gallery-images {
-        padding: 20px 0px;
-        display: block;
-    }
-
-    #project-image {
-        /* padding: 15px;
+	#project-image {
+		/* padding: 15px;
         width: 135px; */
-        display: none;
-    }
+		display: none;
+	}
 
-    .center-align {
-        justify-content: center;
-        padding: 50px 20px;
-        margin: 20px 0px 0px 0px !important;
-    }
+	.center-align {
+		justify-content: center;
+		padding: 50px 20px;
+		margin: 20px 0px 0px 0px !important;
+	}
 
-    .white-para {
-        color: #ffffff;
-        font-size: 14px;
-        text-align: center;
-        padding: 1px;
-    }
+	.white-para {
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		padding: 1px;
+	}
 
-    .white-para-left {
-        color: #ffffff;
-        font-size: 15px;
-        word-wrap: break-word;
-        text-align: left;
-        padding-left: 5px;
-        line-height: 35px;
-    }
+	.white-para-left {
+		color: #ffffff;
+		font-size: 15px;
+		word-wrap: break-word;
+		text-align: left;
+		padding-left: 5px;
+		line-height: 35px;
+	}
 
-    .email {
-        padding: 20px 30px;
-        letter-spacing: 6px;
-    }
+	.email {
+		padding: 20px 30px;
+		letter-spacing: 6px;
+	}
 
-    .gallery {
-        justify-content: center;
-        padding: 15px 15px;
-    }
-
+	.gallery {
+		justify-content: center;
+		padding: 15px 15px;
+	}
 }
