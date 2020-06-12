@@ -121,13 +121,12 @@
 
 .project-icons {
 	color: #fff;
-	font-size: 40px;
-	padding-top: 20px;
+	font-size: 25px;
 }
 
 .white-para {
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 	line-height: 35px;
 	padding: 20px 60px;
@@ -178,10 +177,6 @@
 	padding-top: 10px;
 }
 
-.job-description {
-	font-size: 10px;
-	line-height: 20px;
-}
 
 .email {
 	padding: 20px 0px;
