@@ -17,51 +17,81 @@
 
 <body>
     <!--CSS GRID MAIN-->
-    <div class="container">
-        <ul id="navigation">
+    <main class="container">
+        <nav id="navigation">
             <li class="nav-item">Projects</li>
             <li class="nav-item">CV</li>
             <li class="nav-item">Contact</li>
-        </ul>
+        </nav>
 
-        <div class="center-align">
+        <section class="center-align">
             <h1 class="gold-header">Ryan Fleming</h1>
             <span class="title-sub-header">Front-End Developer, Crypto Trader</span>
             <p class="white-para"></p>
-        </div>
+        </section>
 
-        <div class="gallery">
-            <h3 id="heading">Projects</h3>
-
-
+        <section class="gallery">
+            <h3 id="heading">Projects</h3><br><br>
 
 
-            <div class="projects">
-                <img class="placeholder" src="images/placeholder.jpg">
 
-                <!-- fix the gallery - use display flex or grid -->
-                <div style="display:block;">
-                    Tiny Heroes<br>
 
-                    A fun ruby on rails task manager where you
-                    can set your children tasks and give them
-                    rewards!<br>
-                    <i class="devicon-ruby-plain"></i>
-                    <i class="devicon-git-plain"></i>
-                    <i class="devicon-photoshop-plain"></i>
-                    <i class="devicon-sass-original"></i>
 
-                    <!--
-                    - Register & create a profile<br>
-                    - Choose your hero!<br>
-                    - Create missions with gold rewards<br>
-                    - Manage your childrens missions<br>
-                    - Children can redeem their rewards on
-                    products chosen by the parent<br>
 
-                    <a class="link-style" href="www.tiny-heroes.uk">www.tiny-heroes.uk</a> -->
+
+            <section class="projects">
+
+                <div id="two-column">
+                    <div>
+                        <img class="placeholder" src="images/tinyheroes.png">
+                    </div>
+                    <!-- fix the gallery - use display flex or grid -->
+                    <div style="padding-left:50px; width:500px;">
+
+                        <h2 style="color:white;">Tiny Heroes</h2><br>
+
+                        <p style="color:white; line-height:33px;">
+                            - Register & create a profile<br>
+                            - Choose your hero!<br>
+                            - Create missions with gold rewards<br>
+                            - Manage your childrens missions<br>
+                            - Children can redeem their rewards on
+                            products chosen by the parent<br>
+
+                            <a class="link-style" href="http://www.tinyheroes.uk/">http://www.tinyheroes.uk/</a>
+                        </p><br>
+
+                        <span style="font-size:30px; color:white;">
+                            <i class="devicon-ruby-plain-wordmark"></i>
+                            <i class="devicon-rails-plain-wordmark"></i>
+                            <i class="devicon-git-plain-wordmark"></i>
+                            <i class="devicon-heroku-original-wordmark"></i>
+                            <i class="devicon-photoshop-plain"></i>
+                            <i class="devicon-sass-original"></i>
+                            <i class="devicon-bootstrap-plain-wordmark"></i>
+
+                        </span>
+                    </div>
+
                 </div>
-            </div>
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div class="cv">
                 <h3 id="heading">CV</h3>
@@ -163,8 +193,9 @@
                 <a href="https://github.com/ryanfleming99"><i id="icon" class="fab fa-github-square"></i></a>
             </div>
 
-        </div>
-        <!-- <div class="projects">
+        </section>
+    </main>
+    <!-- <div class="projects">
                 <h3>Projects</h3>
                 <ul><a class="link" href="https://www.ryanfleming.co.uk/emailmarketing"> Email Marketing</a></ul>
                 <ul><a class="link" href="https://www.ryanfleming.co.uk/js">ES6 Javascript</a></ul>
@@ -173,7 +204,7 @@
                 <ul><a class="link" href="https://www.ryanfleming.co.uk/react">React.js</a></ul>
                 <ul><a class="link" href="https://www.ryanfleming.co.uk/Other">Other</a></ul>
             </div> -->
-        <!--END of GRID MAIN-->
+    <!--END of GRID MAIN-->
 </body>
 
 </html>

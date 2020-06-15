@@ -26,6 +26,16 @@
 	text-align: center;
 }
 
+.placeholder {
+	width: 300px;
+	height: 300px;
+}
+
+
+#two-column {
+	display: flex;
+}
+
 .cv {
 	justify-content: center;
 	padding: 10% 10%;
