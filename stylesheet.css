@@ -34,6 +34,8 @@
 
 #two-column {
 	display: flex;
+	justify-content: center;
+	padding: 40px 0px;
 }
 
 .cv {
@@ -160,11 +162,8 @@
 	height: 200px;
 }
 
-.projects {
-	padding: 20px 0px;
-	display: flex;
-	justify-content: center;
-}
+.projects {}
+
 
 .project-text {
 	padding: 0px 50px;
