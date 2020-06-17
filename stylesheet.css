@@ -2,13 +2,14 @@
 	margin: 0;
 	padding: 0;
 	background-color: #151427;
-	font-family: Lato, sans-serif
+	font-family: Lato, sans-serif;
 }
 
 .container {
-	width: 100vw;
+	width: 100%;
 	height: 100%;
-	justify-content: center
+	justify-content: center;
+
 }
 
 #navigation {
@@ -177,4 +178,10 @@
 	font-size: 70px
 }
 
-@media only screen and (max-width:750px) {}
+@media only screen and (max-width:750px) {
+	.center-align {
+		margin: 0px;
+		padding: 100px 20px;
+		justify-content: center;
+	}
+}
