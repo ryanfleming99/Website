@@ -70,6 +70,11 @@
 	padding: 20px 0;
 }
 
+.icons {
+	font-size: 40px;
+	color: white;
+}
+
 .gold-header {
 	color: #dec79b;
 	text-align: center;
@@ -168,6 +173,10 @@
 	text-align: center;
 }
 
+.project-title {
+	color: white;
+}
+
 .center-mobile {
 	padding-left: 50px;
 	width: 500px;
@@ -203,9 +212,21 @@
 		justify-content: center;
 	}
 
+	.placeholder-position {
+		display: flex;
+		justify-content: center;
+		margin-top: -60px;
+	}
+
 	.placeholder-mobile {
 		display: flex;
-		width: 100vw;
+		width: 50vw;
+	}
+
+	.icons {
+		display: block;
+		font-size: 35px;
+		color: white;
 	}
 
 	.placeholder {
@@ -214,25 +235,26 @@
 
 	#two-column {
 		display: block;
-		width: 100vw;
 		padding: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 100px;
 	}
 
 	.project-title {
-		color: white;
-		font-size: 30px;
-		width: 100vw;
+		display: none;
+	}
+
+	.project-description {
+		color: #fff;
+		line-height: 28px;
+		font-size: 15px;
+		margin-top: -50px;
+		width: 80vw;
+		padding: 20px;
 		text-align: center;
-		padding-top: 30px;
 	}
 
 	.link-style {
-		text-decoration: none;
-		color: #fff;
-		justify-content: center;
-		display: flex;
-		padding-top: 20px;
+		display: none;
 	}
 
 	.center {
@@ -245,11 +267,26 @@
 		width: 100vw;
 	}
 
-	.heading {
-		padding: 0px;
+	#heading {
+		margin-bottom: 50px;
 	}
 
 	.nav-item {
 		font-size: 10px;
+	}
+
+	.title-sub-header {
+		font-size: 15px;
+		color: #fff;
+		opacity: .5;
+		display: flex;
+		justify-content: center;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.gold-header {
+		font-size: 30px;
+		margin-top: 80px;
 	}
 }
