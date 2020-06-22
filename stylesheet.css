@@ -110,7 +110,7 @@
 }
 
 .gallery {
-	padding: 0 10%;
+	padding: 0 50px;
 }
 
 .logo {
@@ -183,7 +183,7 @@
 }
 
 .center {
-	width: 40vw;
+	width: 500px;
 	padding-left: 50px;
 }
 
@@ -207,7 +207,7 @@
 	}
 
 	.center-align {
-		margin: 0px;
+		margin: 100px 0px;
 		padding: 0px 0px;
 		justify-content: center;
 	}
@@ -227,6 +227,7 @@
 		display: block;
 		font-size: 35px;
 		color: white;
+		text-align: center;
 	}
 
 	.placeholder {
@@ -235,8 +236,6 @@
 
 	#two-column {
 		display: block;
-		padding: 10px;
-		margin-bottom: 100px;
 	}
 
 	.project-title {
@@ -248,7 +247,6 @@
 		line-height: 28px;
 		font-size: 15px;
 		margin-top: -50px;
-		width: 80vw;
 		padding: 20px;
 		text-align: center;
 	}
@@ -262,17 +260,24 @@
 		padding-left: 0px;
 	}
 
+	#heading {
+		color: #fff;
+		padding: 0px 20px;
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+
 	.gallery {
 		padding: 0 0px;
 		width: 100vw;
 	}
 
-	#heading {
-		margin-bottom: 50px;
-	}
-
-	.nav-item {
-		font-size: 10px;
+	.white-para-left {
+		color: #fff;
+		font-size: 16px;
+		text-align: justify;
+		padding-left: 10px;
+		line-height: 35px;
 	}
 
 	.title-sub-header {

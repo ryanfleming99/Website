@@ -16,14 +16,19 @@
 </head>
 
 <body>
-    <!--CSS GRID MAIN-->
+    <!--CONTAINER -->
     <main class="container">
+
+        <!--navigation-->
 
         <nav id="navigation">
             <li class="nav-item">Projects</li>
             <li class="nav-item">CV</li>
             <li class="nav-item">Contact</li>
         </nav>
+        <!--navigation-->
+
+        <!--intro-->
 
         <section class="center-align">
             <h1 class="gold-header">Ryan Fleming</h1>
@@ -31,8 +36,11 @@
                 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
                 architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
                 aut odit aut fugit</span>
-            <p class="white-para"></p>
         </section>
+
+        <!--intro-->
+
+        <!--project gallery-->
 
         <section class="gallery">
             <h3 id="heading">Projects</h3><br><br>
@@ -44,7 +52,6 @@
                         <img class="placeholder" src="images/tinyheroes.png">
                         <img class="placeholder-mobile" src="images/tinyheroes-mobile.png">
                     </div>
-                    <!-- fix the gallery - use display flex or grid -->
                     <div class="center">
 
                         <h2 class="project-title">Tiny Heroes</h2><br>
@@ -79,9 +86,9 @@
 
                 <div id="two-column">
 
-                    <div>
+                    <div class="placeholder-position">
                         <img class="placeholder" src="images/littleplant.png">
-                        <img class="placeholder-mobile" src="images/tinyheroes-mobile.png">
+                        <img class="placeholder-mobile" src="images/littleplant-mobile.png">
                     </div>
                     <!-- fix the gallery - use display flex or grid -->
                     <div class="center">
@@ -96,9 +103,9 @@
                             - Integrated payment system Stripe for safe payments<br>
                             - Wide selections of oils, gummies and sprays <br>
 
-                        </p><br><br>
+                        </p><br>
 
-                        <span style="font-size:30px; color:white;">
+                        <span class="icons">
                             <i class="devicon-javascript-plain"> </i>
                             <i class="devicon-git-plain-wordmark"> </i>
                             <i class="devicon-heroku-original-wordmark"> </i>
@@ -111,9 +118,9 @@
 
                 <div id="two-column">
 
-                    <div>
+                    <div class="placeholder-position">
                         <img class="placeholder" src="images/admin.png">
-                        <img class="placeholder-mobile" src="images/tinyheroes-mobile.png">
+                        <img class="placeholder-mobile" src="images/admin-mobile.png">
 
                     </div>
                     <!-- fix the gallery - use display flex or grid -->
@@ -127,9 +134,9 @@
                             - A web application for removing life admin tasks <br>
                             - Take control of your finances, eating schedule and excercise<br>
                             - Add/remove/update tasks and share with friends<br>
-                        </p><br><br>
+                        </p><br>
 
-                        <span style="font-size:30px; color:white;">
+                        <span class="icons">
                             <i class="devicon-javascript-plain"> </i>
                             <i class="devicon-git-plain-wordmark"> </i>
                             <i class="devicon-heroku-original-wordmark"> </i>
@@ -142,9 +149,10 @@
 
                 <div id="two-column">
 
-                    <div>
-                        <img class="placeholder" src="images/squirrell.png">
-                        <img class="placeholder-mobile" src="images/tinyheroes-mobile.png">
+                    <div class="placeholder-position">
+
+                        <img class="placeholder" src="images/pinemarten.png">
+                        <img class="placeholder-mobile" src="images/pinemarten-mobile.png">
 
                     </div>
                     <!-- fix the gallery - use display flex or grid -->
@@ -159,9 +167,9 @@
                             - Intergrated admin framework<br>
                             - Live instagram feed<br>
                             - Automated email CRM system<br>
-                        </p><br><br>
+                        </p><br>
 
-                        <span style="font-size:30px; color:white;">
+                        <span class="icons">
                             <i class="devicon-javascript-plain"> </i>
                             <i class="devicon-git-plain-wordmark"> </i>
                             <i class="devicon-heroku-original-wordmark"> </i>
@@ -175,6 +183,9 @@
 
             </section>
 
+            <!--project gallery-->
+
+            <!--role gallery-->
 
             <div class="cv">
                 <h3 id="heading">CV</h3>
@@ -229,13 +240,9 @@
                     </p>
                     <div class="job-description">
                         <p class="white-para-left">
-                            - Email and Web development using E-commerce tools for brands such as Virgin,
-                            Kiehl's,
-                            L’oreal,
-                            Megabus and Dominoes to increasing &nbsp;&nbsp;&nbsp;revenue, TTV and email KPI’s
-                            such as
-                            opens, clicks and
-                            conversions
+                            - Email and Web development using E-commerce tools for brands such as Virgin, Kiehl's,
+                            L’oreal, Megabus and Dominoes to increasing revenue, TTV and email KPI’s such as opens,
+                            clicks and conversions
                             <br> - Collaborating with account managers from both brand, product and design to
                             ensure
                             consistency
@@ -252,18 +259,17 @@
                     </p>
                     <div class="job-description">
                         <p class="white-para-left">
-                            - Maintaining and developing social and brand status through all social channels to
-                            create
-                            brand
-                            awareness, increase revenue, &nbsp;&nbsp;&nbsp;interest and customer acquisition.
-                            <br>- Creating, organising and prioritising content for social channels using Adobe
-                            Suite
+                            - Maintaining and developing social and brand status through all social channels to create
+                            brand awareness, increase revenue, interest and customer acquisition.
+                            <br>- Creating, organising and prioritising content for social channels using Adobe Suite
                         </p>
                     </div>
 
                 </div>
             </div>
+            <!--role gallery-->
 
+            <!--contact section-->
 
             <div class="contact">
                 <h3 class="header">CONTACT</h3>
@@ -275,19 +281,9 @@
                 <a href="https://www.behance.net/RYANFLEMINac44"><i id="icon" class="fab fa-behance-square"></i></a>
                 <a href="https://github.com/ryanfleming99"><i id="icon" class="fab fa-github-square"></i></a>
             </div>
-
+            <!--contact section-->
         </section>
     </main>
-    <!-- <div class="projects">
-                <h3>Projects</h3>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/emailmarketing"> Email Marketing</a></ul>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/js">ES6 Javascript</a></ul>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/personal">Personal Work</a></ul>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/photoshop">Photoshop </a></ul>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/react">React.js</a></ul>
-                <ul><a class="link" href="https://www.ryanfleming.co.uk/Other">Other</a></ul>
-            </div> -->
-    <!--END of GRID MAIN-->
 </body>
 
 </html>
