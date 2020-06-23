@@ -40,7 +40,7 @@
 
 .cv {
 	justify-content: center;
-	padding: 10% 10%;
+	padding: 10% 20%;
 }
 
 .center-align {
@@ -106,7 +106,7 @@
 
 .cv-section {
 	position: relative;
-	padding: 30px 0;
+	padding: 30px 0 30px 100px;
 }
 
 .gallery {
@@ -131,8 +131,9 @@
 	color: #fff;
 	font-size: 15px;
 	text-align: left;
-	padding-left: 94px;
+	padding-left: 90px;
 	line-height: 35px;
+	padding-right: 90px;
 }
 
 .nav-header {
@@ -149,7 +150,7 @@
 .sub-header {
 	font-size: 15px;
 	color: #fff;
-	opacity: .5;
+	opacity: 0.5;
 }
 
 .title-sub-header {
@@ -157,8 +158,8 @@
 	color: #fff;
 	opacity: .5;
 	display: flex;
-	justify-content: center;
-	padding-top: 10px;
+	text-align: center;
+	padding: 40px 300px;
 }
 
 .email {
@@ -230,6 +231,14 @@
 		text-align: center;
 	}
 
+	.cv {
+		padding: 10% 5%;
+	}
+
+	.cv-section {
+		padding: 30px 0px;
+	}
+
 	.placeholder {
 		display: none;
 	}
@@ -276,8 +285,8 @@
 		color: #fff;
 		font-size: 16px;
 		text-align: justify;
-		padding-left: 10px;
-		line-height: 35px;
+		padding: 0px 10px;
+		line-height: 30px;
 	}
 
 	.title-sub-header {
