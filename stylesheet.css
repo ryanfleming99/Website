@@ -26,6 +26,13 @@
 	height: 300px;
 }
 
+.div-center {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	display: none;
+}
+
 .project-description {
 	color: #fff;
 	line-height: 28px;
@@ -40,7 +47,7 @@
 
 .cv {
 	justify-content: center;
-	padding: 10% 20%;
+	padding: 5% 20%;
 }
 
 .center-align {
@@ -78,7 +85,7 @@
 .gold-header {
 	color: #dec79b;
 	text-align: center;
-	font-size: 60px;
+	font-size: 70px;
 }
 
 .cv-gold-header {
@@ -93,7 +100,7 @@
 	color: #fff;
 	justify-content: center;
 	text-align: center;
-	padding: 60px 20px 30px 20px;
+	padding: 60px 20px 70px 20px;
 	font-size: 25px;
 }
 
@@ -102,6 +109,15 @@
 	justify-content: center;
 	text-align: center;
 	padding: 25px 0;
+}
+
+.download-btn {
+	width: 160px;
+	height: 40px;
+	font-size: 15px;
+	background-color: #dec79b;
+	border-radius: 10px;
+	border: 1px solid white;
 }
 
 .cv-section {
@@ -132,7 +148,7 @@
 	font-size: 15px;
 	text-align: left;
 	padding-left: 90px;
-	line-height: 35px;
+	line-height: 20px;
 	padding-right: 90px;
 }
 
@@ -160,6 +176,7 @@
 	display: flex;
 	text-align: center;
 	padding: 40px 300px;
+	line-height: 35px;
 }
 
 .email {
