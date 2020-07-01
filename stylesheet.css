@@ -47,7 +47,8 @@
 
 .cv {
 	justify-content: center;
-	padding: 5% 20%;
+	padding: 5% 5%;
+	border: 1px solid white;
 }
 
 .center-align {
@@ -175,7 +176,7 @@
 	opacity: .5;
 	display: flex;
 	text-align: center;
-	padding: 40px 300px;
+	padding: 40px 100px;
 	line-height: 35px;
 }
 
@@ -254,6 +255,7 @@
 
 	.cv {
 		padding: 10% 5%;
+		border: none;
 	}
 
 	.cv-section {
@@ -294,7 +296,7 @@
 		color: #fff;
 		padding: 0px 20px;
 		font-size: 25px;
-		margin-bottom: 50px;
+		margin-bottom: 70px;
 	}
 
 	.gallery {
@@ -321,7 +323,7 @@
 	}
 
 	.gold-header {
-		font-size: 30px;
+		font-size: 40px;
 		margin-top: 80px;
 	}
 }
