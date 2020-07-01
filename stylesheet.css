@@ -219,6 +219,13 @@
 	display: none;
 }
 
+.link {
+	text-decoration: none;
+}
+
+.nav-item:hover {
+	color: #dec79b;
+}
 @media only screen and (max-width: 768px) {
 	.container {
 		width: 100vw;
