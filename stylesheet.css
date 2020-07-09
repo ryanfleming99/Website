@@ -226,6 +226,7 @@
 .nav-item:hover {
 	color: #dec79b;
 }
+
 @media only screen and (max-width: 768px) {
 	.container {
 		width: 100vw;
@@ -332,5 +333,20 @@
 	.gold-header {
 		font-size: 40px;
 		margin-top: 80px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.icons {
+		padding: 10px 10px;
+	}
+
+	.email {
+		letter-spacing: 0px;
+	}
+
+	.icon-position {
+		padding: 10px 10px;
+		font-size: 30px;
 	}
 }
