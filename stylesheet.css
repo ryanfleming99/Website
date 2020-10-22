@@ -11,23 +11,15 @@
 
 body {
   margin: 120px 200px;
-  background: rgb(64, 134, 175);
-  animation: body ease 1s infinite;
+  background: rgb(202, 202, 202);
+  /* animation: body ease 1s infinite; */
 }
 
-@keyframes body {
-  0% {
-    background-color: rgb(15, 15, 15);
-  }
-
+/* @keyframes body {
   50% {
-    background-color: rgb(9, 47, 109);
+    background-color: rgb(255, 255, 255);
   }
-
-  100% {
-    background-color: rgb(15, 15, 15);
-  }
-}
+} */
 
 .top-secret-btn {
   border: none;
