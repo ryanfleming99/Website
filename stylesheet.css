@@ -11,28 +11,13 @@
 
 body {
   margin: 140px;
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-  /* animation: body ease 1s infinite; */
+  background-color: #eee;
 }
-
-/* @keyframes body {
-  50% {
-    background-color: rgb(255, 255, 255);
-  }
-} */
 
 .top-secret-btn {
   border: none;
   height: 10px;
   width: 40px;
-}
-
-.doge {
-  width: 80px;
-  height: 60px;
-  position: relative;
-  top: 30px;
-  left: -30px;
 }
 
 .small {
@@ -60,9 +45,30 @@ body {
 
 .intro {
   font-size: 30px;
-  line-height: 90px;
-  letter-spacing: 5px;
+  line-height: 50px;
   padding-left: 30px;
+  text-shadow: 2px 2px 7px rgba(150, 150, 150, 0.63);
+  width: 50%;
+}
+
+.tech {
+  background-image: linear-gradient(135deg, #fff886 10%, #f072b6 100%);
+}
+
+.opacity {
+  opacity: 0.1;
+  font-size: 10px;
+  position: relative;
+  top: -15px;
+}
+.opacity:hover {
+  opacity: 1;
+  font-size: 30px;
+  position: relative;
+  top: 0px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .introBox {
@@ -75,12 +81,10 @@ body {
 
 .weeklyUpdate {
   margin: 20px 40px 0 0;
-}
-
-.weeklyUpdate p {
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: auto;
 }
 
 .weeklyUpdate img {
@@ -92,6 +96,7 @@ body {
   font-size: 20px;
   display: flex;
   margin-left: 30px;
+  text-shadow: 2px 2px 7px rgba(150, 150, 150, 0.63);
 }
 
 .name i {
@@ -109,10 +114,11 @@ body {
 
 .nav-item {
   text-decoration: none;
-
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 24px;
+  padding: 0px 40px;
   list-style-type: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 7px rgba(150, 150, 150, 0.63);
 }
 
 .nav-item:hover {
@@ -301,6 +307,8 @@ body {
 
 .link {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 #page-options {
