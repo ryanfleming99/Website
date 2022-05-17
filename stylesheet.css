@@ -445,6 +445,12 @@ body {
     overflow-x: hidden;
   }
 
+  .logo {
+    position: relative;
+    margin: -45px 15px;
+    width: 75px;
+}
+
   .display-none {
     display:none;
   }
