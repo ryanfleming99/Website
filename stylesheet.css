@@ -186,6 +186,7 @@ body {
   box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
   background: whitesmoke;
   padding: 40px 30px;
+  border-radius:20px;
 }
 
 .cv {
@@ -416,20 +417,20 @@ body {
 }
 
 
+/* IPAD STYLING */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  .placeholder {
+    width: 100%;
+    height: auto;
+}
+}
 
 
-
-
-
-
-
-
-
-
-
+/* MOBILE STYLING */
 
 @media only screen and (max-width: 768px) {
-
 
   body {
     margin: 0px !important;
@@ -440,6 +441,11 @@ body {
     width: 150px;
     height: 150px;
   }
+
+  .placeholder {
+    width: 100%;
+    height: auto;
+}
 
   #navigation {
     justify-content: center;
