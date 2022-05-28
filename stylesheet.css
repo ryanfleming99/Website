@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 
+a:-webkit-any-link {
+  text-decoration:none;
+  }
+
 .hover-color {
   background-color: rgb(81, 176, 231);
 }
@@ -22,6 +26,10 @@ body {
 
 .display-none {
   display:none;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .top-secret-btn {
@@ -73,19 +81,16 @@ body {
 .navigation-items {
   display: flex;
   line-height: 2em;
-  border-radius: 10px 10px 10px 10px;
-  opacity: 0.2;
-  pointer-events: none;
+  border-radius: 10px 10px 10px 10px; 
 
 }
 
 .nav-item {
   text-decoration: none;
   font-size: 16px;
-  padding: 0px 40px;
+  padding-left:40px;
   list-style-type: none;
   text-transform: uppercase;
-  text-shadow: 2px 2px 7px rgba(150, 150, 150, 0.63);
 
 }
 
