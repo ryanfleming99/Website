@@ -20,6 +20,10 @@ body {
   src: url(/fonts/.ttf);
 }
 
+.display-none {
+  display:none;
+}
+
 .top-secret-btn {
   border: none;
   height: 10px;
@@ -97,6 +101,8 @@ body {
   padding-top: 40px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+
 }
 
 .intro {
@@ -195,6 +201,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   background: whitesmoke;
   padding-bottom: 100px;
+  border-radius:20px;
 }
 
 .center-align {
@@ -205,6 +212,7 @@ body {
 .link-style {
   text-decoration: none;
 }
+
 
 .project-container {
   justify-content: center;
@@ -314,7 +322,7 @@ body {
 .white-para-left {
   font-size: 15px;
   text-align: left;
-  padding-left: 90px;
+  padding-left: 100px;
   line-height: 20px;
   padding-right: 90px;
 }
@@ -435,6 +443,16 @@ body {
   body {
     margin: 0px !important;
     overflow-x: hidden;
+  }
+
+  .logo {
+    position: relative;
+    margin: -45px 15px;
+    width: 75px;
+}
+
+  .display-none {
+    display:none;
   }
 
   .avatar {
