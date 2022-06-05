@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: black;
+  color: rgb(32, 32, 32);
   font-family: 'lato';
   overflow-x: hidden;
 }
@@ -14,9 +14,17 @@ a:-webkit-any-link {
   background-color: rgb(81, 176, 231);
 }
 
+.unflex {
+  display:block !important;
+}
+
+.flex {
+  display:flex !important;
+}
+
 body {
-  margin: 70px;
-  background-color: #A1C6E3;
+  padding:30px;
+  background-color:rgb(207 221 233 / 28%);
 }
 
 @font-face {
@@ -71,9 +79,9 @@ body {
 #navigation {
   display: flex;
   justify-content: space-between;
-  background: whitesmoke;
-  padding: 80px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background: white;
+  padding: 45px;
+  box-shadow: rgb(204 219 232) 3px 6px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
   border-radius: 10px 10px 0 0;
 }
 
@@ -101,11 +109,22 @@ body {
 
 .introBox {
   display: flex;
-  background: whitesmoke;
+  background: white;
   text-align: center;
-  padding-top: 40px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  justify-content: center;
+  padding-top: 80px;
+  box-shadow:rgb(204 219 232) 3px -6px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
+    justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+
+}
+
+.projectBox {
+  display: block;
+  background: white;
+  text-align: center;
+  padding:40px;
+  box-shadow:rgb(204 219 232) 3px -6px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
+    justify-content: center;
   border-radius: 0px 0px 20px 20px;
 
 }
@@ -114,6 +133,14 @@ body {
   font-size: 26px;
   padding-top: 50px;
   width: 650px;
+  text-align: left;
+}
+
+.projectBackground {
+  width:100%;
+  height:auto;
+  margin-bottom:50px;
+  border-radius:10px;
 }
 
 .tech {
@@ -154,7 +181,6 @@ body {
 .name {
   font-size: 16px;
   display: flex;
-  margin-left: 30px;
 }
 
 .name i {
@@ -194,8 +220,8 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
-  background: whitesmoke;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background: white;
   padding: 40px 30px;
   border-radius:20px;
 }
@@ -203,8 +229,8 @@ body {
 .cv {
   width: 100%;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  background: whitesmoke;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background: white;
   padding-bottom: 100px;
   border-radius:20px;
 }
@@ -634,6 +660,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    padding:0px;
+  }
+
+.intro {
+  text-align: center;
+}
+  
   .icons {
     padding: 10px 10px;
   }
