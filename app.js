@@ -1,3 +1,6 @@
+
+
+
 /* Lazy Loading Script */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -29,3 +32,13 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("resize", lazyload);
     window.addEventListener("orientationChange", lazyload);
   });
+
+
+
+
+  // * website opening multiple URL's for viewing projects * //
+  $('a.allprojects').click(function(e) {
+    e.preventDefault();
+    window.open('http://www.yoururl1.com');
+    window.open('http://www.yoururl2.com');
+});

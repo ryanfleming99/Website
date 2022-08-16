@@ -5,18 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="/index.js" alt="index.js"></script>
+  <script src="/index.js" async alt="index.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
   <script src="https://kit.fontawesome.com/34f56d6676.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+SC:300,500" rel="stylesheet">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
 </head>
 
-<body>
+<body class="index">
   <!--CONTAINER -->
-  <main class="container">
+  <main class="container fade-in">
 
     <!-- 
     <nav id="navigation">
@@ -35,11 +37,17 @@
 
     <nav id="navigation">
       <div class="name">
-        <h1>Ryan Fleming</h1>
+        <a href="/index.html">
+          <lord-icon src="https://cdn.lordicon.com/gmzxduhd.json" trigger="hover"
+            colors="primary:#121331,secondary:#545454" style="width:60px;height:60px">
+          </lord-icon>
       </div>
-      <div class="navigation-items">
+      <div class="navigation-items display-none">
         <a clas="link" href="index.html">
           <li class="nav-item display-none">Home</li>
+        </a>
+        <a class="link" href="welcome.html">
+          <li class="nav-item">Course</li>
         </a>
         <a class="link" href="design.html">
           <li class="nav-item">Design</li>
@@ -47,358 +55,73 @@
         <a class="link" href="projects.html">
           <li class="nav-item">Projects</li>
         </a>
-        <a class="link" href="contact.html">
-          <li class="nav-item">Contact</li>
+        <a class="link" href="experience.html">
+          <li class="nav-item">Experience</li>
         </a>
       </div>
     </nav>
 
     <!--intro-->
 
-    <div class="introBox">
-      <img class="avatar" src="images/RyanFlemingAvatar.webp">
-
-      <p class="intro">
-        I'm a Front-End Developer with a passion for Minimalism, Marketing & Cryptocurrency.
-      </p>
+    <div class="full-height">
+      <div class="half-col pad-100">
+        <b>Hey, I'm </b>
+        <h1 class="white-stroke"> Ryan Fleming</h1>
+        <p class="white-stroke">I'm a creative front-end developer who loves to create websites, product designs,
+          games, NFT's and so on!<br />My website is being updated in my spare time so expect changes!</p>
+        <button class="btn-blue" href="#">Coming soon</button>
+      </div>
+      <div class="half-col image">
+        <img class="ryan-image" src="images/RyanFleming-Grain.webp">
+      </div>
 
     </div>
 
+    <section class="flex pad-100 theme-blue full-height">
+      <div class="half-col">
+        <h2>What I Know and Do: </h2><br />
+
+        <h4>
+          Front End Development<br /></h4>
+        <h4>
+          Technical SEO<br /></h4>
+        <h4>
+          Website Design<br /></h4>
+        <h4>
+          Adobe Photoshop, InDesign & Premier Pro<br /></h4>
+        <h4>
+          Email Development & CRM Consulting
+        </h4>
+
+      </div>
+      <div class="half-col">
+        <h2>Personal Projects</h2>
+      </div>
+
+
+    </section>
+
+    <section>
+
+
+    </section>
+
     <!--intro-->
 
-    <!--project gallery-->
-    <section class="gallery">
-      <div class="heading">
-        <i class="fas fa-sort-down"></i>
-      </div>
+    <!--contact section-->
 
-      <section class="projects">
-        <div id="two-column">
-          <div class="placeholder-position">
-            <a target="_blank" href="http://www.tinyheroes.co.uk/"><img class="placeholder"
-                src="images/tinyheroes.png?2" /></a>
-            <img class="placeholder-mobile" src="images/tinyheroes-mobile.png" />
-          </div>
-          <div class="center">
-            <h2 class="project-title">Tiny Heroes</h2>
-            <br />
-            <a class="link-style" target="_blank" href="http://www.tinyheroes.co.uk/">
-              www.tinyheroes.co.uk</a><br /><br />
+    <div class="contact">
+      <h3 id="heading">CONTACT</h3>
+      <p class="email">Ryan.fleming@mailfence.com</p>
+    </div>
 
-            <p class="project-description">
-              - Register & create a profile<br />
-              - Choose your hero!<br />
-              - Create missions with gold rewards<br />
-              - Manage your childrens missions<br />
-              - Children can redeem their rewards on products chosen by the
-              parent<br />
-            </p>
-            <br />
-
-            <span class="icons">
-              <i class="devicon-ruby-plain-wordmark"> </i>
-              <i class="devicon-rails-plain-wordmark"> </i>
-              <i class="devicon-git-plain-wordmark"> </i>
-              <i class="devicon-heroku-original-wordmark"> </i>
-              <i class="devicon-photoshop-plain"> </i>
-              <i class="devicon-sass-original"> </i>
-              <i class="devicon-bootstrap-plain-wordmark"> </i>
-            </span>
-          </div>
-        </div>
-
-        <div id="two-column">
-          <div class="placeholder-position">
-            <a href="https://www.aviemoreski.co.uk/" target="_blank"><img class="placeholder"
-                src="images/pinemarten.png" /></a>
-            <a href="https://www.aviemoreski.co.uk/" target="_blank"><img class="placeholder-mobile"
-                src="images/pinemarten-mobile.png" /></a>
-          </div>
-          <!-- fix the gallery - use display flex or grid -->
-          <div class="center">
-            <a style="text-decoration:none" href="https://www.aviemoreski.co.uk/" target="_blank">
-              <h2 class="project-title">The Pine Marten Bar</h2>
-            </a>
-            <br />
-            <!-- <a class="link-style" href="https://www.aviemoreski.co.uk/">
-                              https://www.aviemoreski.co.uk/</a><br><br>-->
-
-            <p class="project-description">
-              - A website built and designed for The Pine Marten Bar<br />
-              - Intergrated admin framework<br />
-              - Live instagram feed<br />
-              - Automated email CRM system<br />
-            </p>
-            <br />
-
-            <span class="icons">
-              <i class="devicon-photoshop-plain"> </i>
-            </span>
-          </div>
-        </div>
-
-        <div id="two-column">
-          <div class="placeholder-position">
-            <img class="placeholder" src="images/littleplant.png" />
-            <img class="placeholder-mobile" src="images/littleplant-mobile.png?1" />
-          </div>
-          <!-- fix the gallery - use display flex or grid -->
-          <div class="center">
-            <h2 class="project-title">Little Plant</h2>
-            <br />
-            <!-- <a class="link-style" href="http://www.littleplant.co.uk/">
-                            http://www.littleplant.co.uk/</a><br><br> -->
-
-            <p class="project-description">
-              - Online store for CBD products<br />
-              - Products from Switzerland, Cananda and USA <br />
-              - Integrated payment system Stripe for safe payments<br />
-              - Wide selections of oils, gummies and sprays <br />
-            </p>
-            <br />
-
-            <span class="icons">
-              <i class="devicon-javascript-plain"> </i>
-              <i class="devicon-git-plain-wordmark"> </i>
-              <i class="devicon-heroku-original-wordmark"> </i>
-              <i class="devicon-photoshop-plain"> </i>
-            </span>
-          </div>
-        </div>
-
-        <div id="two-column">
-          <div class="placeholder-position">
-            <img class="placeholder" src="images/scratch-card-tiny-lotto-new.gif" />
-            <img class="placeholder-mobile" src="images/mobile-tiny-lotto-cards-.gif" />
-          </div>
-          <!-- fix the gallery - use display flex or grid hello -->
-          <div class="center">
-            <h2 class="project-title">Tiny Lotto </h2><br /><br />
-            <!-- <a class="link-style" href="http://www.tinylotto.co.uk/">http://www.tinylotto.co.uk/</a><br><br>--> 
-
-            <p class="project-description">
-              - A website dedicated to hosting interactive lottery tickets<br />
-              - Scratch and win prizes such as crypto, cars and houses!! <br />
-            </p>
-            <br />
-            Website - <a class="link-style " href="www.tinylotto.co.uk"> www.tinylotto.co.uk</a> <br /><br />
-            <span class="icons">
-              <i class="devicon-photoshop-plain"> </i>
-            </span>
-          </div>
-        </div>
-
-        <div id="two-column">
-          <div class="placeholder-position">
-            <img class="placeholder" src="images/admin.png" />
-            <img class="placeholder-mobile" src="images/admin-mobile.png" />
-          </div>
-          <!-- fix the gallery - use display flex or grid -->
-          <div class="center">
-            <h2 class="project-title">Admin</h2>
-            <br />
-            <!--  <a class="link-style" href="">
-                            http://www.admin.co.uk/</a><br><br>-->
-
-            <p class="project-description">
-              - A web application for removing life admin tasks <br />
-              - Take control of your finances, eating schedule and
-              excercise<br />
-              - Add/remove/update tasks and share with friends<br />
-            </p>
-            <br />
-
-            <span class="icons">
-              <i class="devicon-javascript-plain"> </i>
-              <i class="devicon-git-plain-wordmark"> </i>
-              <i class="devicon-heroku-original-wordmark"> </i>
-              <i class="devicon-photoshop-plain"> </i>
-            </span>
-          </div>
-        </div>
-      </section>
-
-      <!--project gallery-->
-
-      <!--role gallery-->
-
-      <div class="cv">
-        <h3 id="cvHeader">Work Experience</h3>
-        <div class="cv-section">
-          <img class="logo" src="images/marketopia-brand-logo.webp" />
-          <p class="cv-gold-header">
-            Front-end Developer <br />
-            <span class="sub-header"><a class="link-style" href="https://www.marketopia.com">Marketopia</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Creating beautiful websites using Hubspot CMS, Wordpress, Webflow & Wix
-              <br /><br />- Optimizing websites using SEO tools such as SEMrush, Google Search Console &
-              pagespeed.web.dev <br /><br />- Partnerning with project managers, design teams and clients to regularly
-              deliver 40 page websites <br /><br />
-              - Daily quality assurance, planning and strategy<br /><br />
-              - Upskilling colleagues monthly using my expertise (email/web development, adobe software, QA testing)
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/tech-logo.webp" />
-          <p class="cv-gold-header">
-            Front-end Developer <br />
-            <span class="sub-header"><a class="link-style" href="https://www.investcloud.com">Investcloud</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Working with a Project Manager, Business Analyst & Application
-              Developer to complete client projects
-              <br /><br />- Using proprietary software and SDK’s to create
-              custom financial dashboards using HTML & CSS <br /><br />-
-              Managing and priorisiting workload with Azure DevOps Server for
-              smooth project planning and orginisation <br /><br />
-              - Daily bug fixing and escalating issues to those required to
-              fix/amend <br /><br />
-              - Releasing completed projects to production for client use
-              <br /><br />
-              - Using an automated test framework to test data
-            </p>
-          </div>
-        </div>
-        <div class="cv-section">
-          <img class="logo" src="images/noths.png" />
-          <p class="cv-gold-header">
-            Marketing Technologist <br />
-            <span class="sub-header"><a class="link-style"
-                href="https://www.notonthehighstreet.com">notonthehighstreet.com</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Email Developer role focused on mainly using HTML & CSS
-              <br /><br />- Working with Git to maintain and update the
-              in-house email node.js application <br /><br />- Managing and
-              improving the email channel from a technical and CRM position
-              <br /><br />- Meeting strict deadlines daily for multiple
-              marketing campaigns <br /><br />- Voluntary work for pressurized
-              departments over peak periods <br /><br />- Working with
-              e-commerce tools for data analysis and personalisation
-              <br /><br />- Upholding email delivery reputation, bug fixing
-              and refining processes
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/yieldify.png" />
-          <p class="cv-gold-header">
-            Campaign Manager <br />
-            <span class="sub-header"><a class="link-style" href="https://www.yieldify.com">Yieldify</span></a>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Working with email and web e-commerce for the UK's biggest brands to
-              increase revenue, TTV and KPI’s such as opens, clicks
-              and conversions
-              <br /><br />
-              - Collaborating with account managers from both brand, product
-              and design to ensure consistency through-out campaigns on-site
-              and in email
-              <br /><br />
-              - Using initative in meetings to challenge difficult project expectations to improve client satisfaction
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/violetdarkling.webp" />
-          <p class="cv-gold-header">
-            Social Media Specialist<br />
-            <span class="sub-header"><a class="link-style" href="https://www.violetdarkling.com">Violet
-                Darkling</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Maintaining and developing social and brand status through all
-              social channels to create brand awareness, increase revenue,
-              interest and customer acquisition.
-              <br /><br />- Creating, organising and prioritising content for
-              social channels using Adobe Suite
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/coffee-logo.webp" />
-          <p class="cv-gold-header">
-            Barista & Part-time Chef <br />
-            <span class="sub-header"><a class="link-style" href="https://www.starbucks.com">Starbucks</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Working with high standards in both Kitchen and front of house<br /><br />
-              - Handling customer transactions while creating a positive atmosphere<br /><br />
-              - Preparing food and being knowledgeable with hygiene to ensure health and safety is the highest
-              priority<br /><br />
-              - Working in events serving alcohol, food and the best chat<br /><br />
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/merlin-entertainment-logo.webp" />
-          <p class="cv-gold-header">
-
-            Customer Service Officer <br />
-            <span class="sub-header"><a class="link-style" href="https://www.merlinentertainments.biz/">Merlin
-                Entertainment</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Providing the highest level of customer service while exceeding sales targets <br /><br />
-              - Handling ticket transactions, events and hosting cinematic experiences <br /><br />
-              - Dressing up as the Merlin shark for entertaining families<br /><br />
-              - Won 2 awards for most sales & trust pilot review<br /><br />
-            </p>
-          </div>
-        </div>
-
-        <div class="cv-section">
-          <img class="logo" src="images/sainsburys.webp" />
-          <p class="cv-gold-header">
-
-            Supervisor<br />
-            <span class="sub-header"><a class="link-style" href="https://www.sainsburys.co.uk/">Sainsbury's</a></span>
-          </p>
-          <div class="job-description">
-            <p class="white-para-left">
-              - Managing a team of 8 for day to day tasks and unexpected in-store problems<br /><br />
-              - Maintaining a high standard of cleanliness through-out the store <br /><br />
-              - Providing the highest level of customer service<br /><br />
-              - Motivating the team to reach targets for satisfying customer neeeds <br /><br />
-            </p>
-          </div>
-        </div>
-        <div class="div-center">
-          <a href="/download/ryanflemingcv.pdf"><button class="download-btn" type="button">
-              DOWNLOAD CV
-            </button></a>
-        </div>
-      </div>
-      <!--role gallery-->
-
-      <!--contact section-->
-
-      <div class="contact">
-        <h3 id="heading">CONTACT</h3>
-        <p class="email">Ryan.fleming@mailfence.com</p>
-      </div>
-
-      <div class="icon-position">
-        <a target="_blank" href="https://www.linkedin.com/in/rynfleming/"><i id="icon" class="fab fa-linkedin"></i></a>
-        <a target="_blank" href="https://www.behance.net/RYANFLEMINac44"><i id="icon"
-            class="fab fa-behance-square"></i></a>
-        <a target="_blank" href="https://github.com/ryanfleming99"><i id="icon" class="fab fa-github-square"></i></a>
-      </div>
-      <!--contact section-->
+    <div class="icon-position">
+      <a target="_blank" href="https://www.linkedin.com/in/rynfleming/"><i id="icon" class="fab fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.behance.net/RYANFLEMINac44"><i id="icon"
+          class="fab fa-behance-square"></i></a>
+      <a target="_blank" href="https://github.com/ryanfleming99"><i id="icon" class="fab fa-github-square"></i></a>
+    </div>
+    <!--contact section-->
     </section>
   </main>
 </body>
