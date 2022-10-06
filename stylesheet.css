@@ -418,7 +418,6 @@ img.projectBackground:hover {
   position: relative;
   top: 0px;
   background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
